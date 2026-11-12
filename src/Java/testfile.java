@@ -12,7 +12,16 @@ public class testfile {
 //        System.out.println("test "+ test+" "+ calcItem);
 //        float number= 34.52f; //float type f and F
         Scanner scan= new Scanner(System.in);
-        System.out.println("test edek");
-        scan.nextLine();
-     }
+        System.out.println("your name");
+        String name= scan.nextLine();
+
+        System.out.println("your email");
+        String email= scan.nextLine();
+
+        System.out.println("your age ");
+        int age= scan.nextInt();
+
+        System.out.println("your name: "+ name + " your email: "+ email + " your age: "+ age);
+
+    }
 }
