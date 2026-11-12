@@ -1,6 +1,8 @@
 package Java;
 
- public class testfile {
+import java.util.Scanner;
+
+public class testfile {
     public static void main(String[] args) {
 //        var test="new test";
 //        byte square = 2;
@@ -9,6 +11,8 @@ package Java;
 //        int  calcItem= number * square * number2;
 //        System.out.println("test "+ test+" "+ calcItem);
 //        float number= 34.52f; //float type f and F
-
+        Scanner scan= new Scanner(System.in);
+        System.out.println("test edek");
+        scan.nextLine();
      }
 }
