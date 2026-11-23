@@ -31,14 +31,21 @@ public class testfile {
 //            }
 //        }
 //        System.out.println(count);
+//        for
+//        int count=0;
+//        for(int i=0 ; i<10 ;i++){
+//            if(i%2==0 && i !=0){
+//                count+=i;
+//            }
+//        }
+//        System.out.println(count);
 
-        int count=0;
-        for(int i=0 ; i<10 ;i++){
-            if(i%2==0 && i !=0){
-                count+=i;
-            }
-        }
-        System.out.println(count);
+//      while
+//        int dev=3;
+//        while(dev<10){
+//            System.out.println(dev);
+//            dev++;
+//        }
 
     }
 }
