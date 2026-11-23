@@ -47,5 +47,24 @@ public class testfile {
 //            dev++;
 //        }
 
+//        sade murekkeb eded
+        Scanner scan= new Scanner(System.in);
+        System.out.println("your number");
+        int num=scan.nextInt();
+        int count=0;
+        for(int i=1;i<=num/2 ;i++){
+            if(num%i==0){
+                count++;
+            }
+        }
+        if(num==1){
+            System.out.println("ne sade ne murekkeb ");
+        }
+        else if(count>1 && num!=2){
+        System.out.println("murekkeb");
+        }else{
+            System.out.println("sade");
+        }
+
     }
 }
