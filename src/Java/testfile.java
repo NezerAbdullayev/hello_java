@@ -22,11 +22,20 @@ public class testfile {
 //        int age= scan.nextInt();
 //
 //        System.out.println("your name: "+ name + " your email: "+ email + " your age: "+ age);
+
+//        int count=0;
+//        for(int i=0 ; i<10 ;i++){
+//            if(i%2==0 && i !=0){
+//                count++;
+//                System.out.println(i +" even");
+//            }
+//        }
+//        System.out.println(count);
+
         int count=0;
         for(int i=0 ; i<10 ;i++){
             if(i%2==0 && i !=0){
-                count++;
-                System.out.println(i +" even");
+                count+=i;
             }
         }
         System.out.println(count);
