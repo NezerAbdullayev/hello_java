@@ -48,23 +48,33 @@ public class testfile {
 //        }
 
 //        sade murekkeb eded
-        Scanner scan= new Scanner(System.in);
-        System.out.println("your number");
-        int num=scan.nextInt();
-        int count=0;
-        for(int i=1;i<=num/2 ;i++){
-            if(num%i==0){
-                count++;
-            }
-        }
-        if(num==1){
-            System.out.println("ne sade ne murekkeb ");
-        }
-        else if(count>1 && num!=2){
-        System.out.println("murekkeb");
-        }else{
-            System.out.println("sade");
-        }
+//        Scanner scan= new Scanner(System.in);
+//        System.out.println("your number");
+//        int num=scan.nextInt();
+//        int count=0;
+//        for(int i=1;i<=num/2 ;i++){
+//            if(num%i==0){
+//                count++;
+//                if(count==1){
+//                    break;
+//                }
+//            }
+//        }
+//        if(num==0){
+//            System.out.println("ne sade ne murekkeb ");
+//        }
+//        else if(count>0 && num!=2){
+//        System.out.println("murekkeb");
+//        }else{
+//            System.out.println("sade");
+//        }
+
+//        String[] test=new String[3];
+//        test[0]="Hello";
+//        test[1]="World";
+//        String[] test2={"1","2","3","4","5","6","7","8","9"};
+//        System.out.println(test2.length);
+
 
     }
 }
