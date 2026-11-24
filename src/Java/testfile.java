@@ -72,17 +72,17 @@ public class testfile {
 //        String[] test=new String[3];
 //        test[0]="Hello";
 //        test[1]="World";
-        String[] test2={"1","2","3","4","5","6","7","8","9"};
-        System.out.println(test2.length);
-
-        values();
-        add(5,10);
+//        String[] test2={"1","2","3","4","5","6","7","8","9"};
+//        System.out.println(test2.length);
+//
+//        values();
+//        add(5,10);
     }
     //methods
-    public static void  values(){
-        System.out.println("hello");
-    }
-    public static  void add( int num1 , int num2){
-        System.out.println(num1+num2);
-    }
+//    public static void  values(){
+//        System.out.println("hello");
+//    }
+//    public static  void add( int num1 , int num2){
+//        System.out.println(num1+num2);
+//    }
 }
