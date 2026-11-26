@@ -11,4 +11,9 @@ public class JavaOOP {
         this.lastName = lastName;
         System.out.println("Hello World");
     }
+
+    //    method owerloading
+    public  JavaOOP() {
+        System.out.println("method owerloading");
+    }
 }

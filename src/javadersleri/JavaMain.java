@@ -12,6 +12,9 @@ public class JavaMain {
 //        System.out.println("name "+name +"lastName "+lastName+"age "+value);
     JavaOOP java =new JavaOOP(25,"Nazar","abdullayev");
     System.out.println(java.name);
+
+    //test method owerloading
+    JavaOOP test2 =new JavaOOP();
     }
 
 }
