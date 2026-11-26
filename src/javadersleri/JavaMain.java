@@ -4,12 +4,14 @@ public class JavaMain {
 
 
     public static void main(String[] args) {
-        JavaOOP myTest = new JavaOOP();
-        int value =myTest.value;
-        String name =myTest.name;
-        String lastName =myTest.lastName;
-
-        System.out.println("name "+name +"lastName "+lastName+"age "+value);
+//        JavaOOP myTest = new JavaOOP();
+//        int value =myTest.value;
+//        String name =myTest.name;
+//        String lastName =myTest.lastName;
+//
+//        System.out.println("name "+name +"lastName "+lastName+"age "+value);
+    JavaOOP java =new JavaOOP(25,"Nazar","abdullayev");
+    System.out.println(java.name);
     }
 
 }
