@@ -25,7 +25,13 @@ public class JavaOOP {
         if(check){
         System.out.println( "method owerloading succes");
         }else{
-            System.out.println("fail");
+            System.out.println("fail "+ code);
         }
+
     }
+//        constructor nested
+    public JavaOOP(int test) {
+            this("Qonaq");                     // 1 parametrli konstruktoru çağırır
+            System.out.println("parametrsiz");
+        }
 }

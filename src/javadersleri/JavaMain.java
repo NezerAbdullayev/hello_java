@@ -18,7 +18,8 @@ public class JavaMain {
 
 //    test2.key
     JavaOOP testPrivate =new JavaOOP("kfhjd34hj34j42l343l");
-
+     // nested
+     JavaOOP newTest =new JavaOOP(10);
 
     }
 
