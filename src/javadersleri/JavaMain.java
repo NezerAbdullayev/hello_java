@@ -9,7 +9,7 @@ public class JavaMain {
         String name =myTest.name;
         String lastName =myTest.lastName;
 
-        System.out.println(name);
+        System.out.println("name "+name +"lastName "+lastName+"age "+value);
     }
 
 }
