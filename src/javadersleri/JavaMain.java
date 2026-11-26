@@ -15,6 +15,11 @@ public class JavaMain {
 
     //test method owerloading
     JavaOOP test2 =new JavaOOP();
+
+//    test2.key
+    JavaOOP testPrivate =new JavaOOP("kfhjd34hj34j42l343l");
+
+
     }
 
 }

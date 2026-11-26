@@ -4,6 +4,8 @@ public class JavaOOP {
     public int value;
     public String  name;
     public String lastName;
+    private String key="kfhjd34hj34j42l343l";
+
     //constractor
     public  JavaOOP(int value, String name, String lastName) {
        this.value = value;
@@ -15,5 +17,15 @@ public class JavaOOP {
     //    method owerloading
     public  JavaOOP() {
         System.out.println("method owerloading");
+    }
+
+//    private
+    public  JavaOOP(String code) {
+        boolean check=code.equals(this.key);
+        if(check){
+        System.out.println( "method owerloading succes");
+        }else{
+            System.out.println("fail");
+        }
     }
 }
