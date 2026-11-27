@@ -21,6 +21,11 @@ public class JavaMain {
      // nested
      JavaOOP newTest =new JavaOOP(10);
 
+//     az.cybernet.shop.constroller ===>
+//        1. controller melum mesele,
+//        2.shop->lahiyenin adi
+//        3.cybernet->sirket adi
+//        4.domen zona ->az com org ve s
     }
 
 }
